@@ -1,0 +1,67 @@
+# Python virtual environment
+.venv/
+
+# ROS2 build directories
+build/
+install/
+log/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Training data and models
+resource/training_data/*
+resource/models/*
+resource/recognitions/*
+!resource/training_data/.gitkeep
+!resource/models/.gitkeep
+!resource/recognitions/.gitkeep
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ROS2 specific
+.catkin_workspace
+.catkin_tools/
+.rosinstall
+.rosinstall.bak
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files
+*.env
+.env
+
+# Local development scripts
+setup_face_recognition.sh
+run_environment.sh
+
+# Log files
+*.log

@@ -1,0 +1,7 @@
+numpy==1.24.3
+torch
+torchvision
+opencv-python
+face-recognition
+rclpy
+pyyaml
